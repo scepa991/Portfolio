@@ -6,18 +6,28 @@ class Education extends Component {
   style = {
     backgroundImage: "url( " + picture + " )",
     backgroundPosition: "center",
-    backgroundSize: "cover",
+    backgroundImageOpacity: 0.5,
     height: 700,
     backgroundAttachment: "fixed",
+    opacity: 0.5
+  };
+  text = {
+    color: "green",
+    textAlign: "left"
+  };
+  title = {
     color: "white",
     fontSize: 50,
-    opacity: 0.5
+    textAlign: "center"
   };
 
   render() {
     return (
       <div style={this.style}>
-        <p>3. Education</p>
+        <p style={this.title}>3. Education</p>
+        <div style={this.text}>
+          <p>Flatiron School</p>
+        </div>
       </div>
     );
   }
