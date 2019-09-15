@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script");
+
 .div1 {
   text-align: center;
 }
@@ -34,12 +36,13 @@
   top: 25%;
   left: 5%;
   font-size: 5vw;
+  font-family: "Dancing Script";
 }
 
 .title1 {
-  color: black;
+  color: red;
   position: absolute;
-  top: 32%;
-  left: 5%;
-  font-size: 5vw;
+  top: 80%;
+  left: 2%;
+  font-size: 2vw;
 }

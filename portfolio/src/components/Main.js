@@ -12,7 +12,9 @@ class Main extends Component {
     return (
       <div className="style">
         <p className="title">
-          Stefan <br /> Scepanovic
+          Stefan
+          <br /> Scepanovic
+          <p className="title1">Full stack developer</p>
         </p>
 
         <img className="img" src={picture} alt={"Stefan image"} />
