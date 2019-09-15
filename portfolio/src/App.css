@@ -14,7 +14,7 @@
   height: 100%;
   max-height: 1000px;
   width: "100%";
-  background: linear-gradient(to left, hsl(185, 85%, 3%) 50%, #eaeaea 50%);
+  background: linear-gradient(to left, hsl(180, 26%, 4%) 50%, #d3d3d3 50%);
   color: "black";
 }
 
@@ -45,4 +45,75 @@
   top: 80%;
   left: 2%;
   font-size: 2vw;
+}
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 4vw;
+  height: 4vw;
+  left: 90%;
+  top: 5%;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #d3d3d3;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: red;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 15px;
+  width: 15px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: red;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #d3d3d3;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #d3d3d3;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 15%;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(192, 7, 7, 0.3);
+}
+
+.menu-item {
+  font-size: 3vw;
+
+  color: black;
 }

@@ -1,11 +1,13 @@
 import React, { Component } from "react";
 import "../App.css";
+import { fallDown as Menu } from "react-burger-menu";
 
 import picture from "../images/Stefan.jpeg";
 
 class Main extends Component {
-  home = () => {
-    window.scrollTo(0, 0);
+  state = {
+    menu: false,
+    aboutMe: false
   };
 
   render() {
@@ -16,6 +18,25 @@ class Main extends Component {
           <br /> Scepanovic
           <p className="title1">Full stack developer</p>
         </p>
+        <div>
+          <Menu right>
+            <a id="home" className="" href="/">
+              Professional
+            </a>
+            <a id="about" className="" href="/about">
+              Projects
+            </a>
+            <a id="contact" className="" href="/contact">
+              Education
+            </a>
+            <a onClick={this.showSettings} className="" href="">
+              Experience
+            </a>
+            <a onClick={this.showSettings} className="" href="">
+              Contact
+            </a>
+          </Menu>
+        </div>
 
         <img className="img" src={picture} alt={"Stefan image"} />
       </div>
@@ -24,10 +45,3 @@ class Main extends Component {
 }
 
 export default Main;
-
-// <button onClick={this.home}>Home</button>
-// <button onClick={this.professional}>Professional</button>
-// <button onClick={this.project}>Project</button>
-// <button onClick={this.education}>Education</button>
-// <button onClick={this.experience}>Experience</button>
-// <button onClick={this.contact}>Contact</button>
