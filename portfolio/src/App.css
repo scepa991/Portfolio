@@ -7,3 +7,39 @@
   height: 40vmin;
   pointer-events: none;
 }
+
+.style {
+  height: 100%;
+  max-height: 1000px;
+  width: "100%";
+  background: linear-gradient(to left, hsl(185, 85%, 3%) 50%, #eaeaea 50%);
+  color: "black";
+}
+
+.img {
+  width: 35%;
+  height: 70%;
+  margin-left: 33%;
+  margin-right: 33%;
+  margin-top: 5%;
+  margin-bottom: 25%;
+  border-style: solid;
+  border-width: 1%;
+  border-color: gray;
+}
+
+.title {
+  color: black;
+  position: absolute;
+  top: 25%;
+  left: 5%;
+  font-size: 5vw;
+}
+
+.title1 {
+  color: black;
+  position: absolute;
+  top: 32%;
+  left: 5%;
+  font-size: 5vw;
+}
