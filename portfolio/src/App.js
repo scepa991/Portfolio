@@ -12,15 +12,10 @@ import Contact from "./components/Contact";
 import About from "./components/About";
 
 class App extends Component {
-  style = {
-    display: "flex",
-    flexDirection: "column"
-  };
-
   render() {
     return (
-      <BrowserRouter>
-        <div style={this.style}>
+      <div>
+        <BrowserRouter>
           <Menu right>
             <a id="home" className="" href="/">
               Home
@@ -51,8 +46,8 @@ class App extends Component {
           <Route exact path="/education" component={Education} />
           <Route exact path="/experience" component={Experience} />
           <Route exact path="/contact" component={Contact} />
-        </div>
-      </BrowserRouter>
+        </BrowserRouter>
+      </div>
     );
   }
 }
