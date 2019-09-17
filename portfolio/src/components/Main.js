@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "../App.css";
-import { fallDown as Menu } from "react-burger-menu";
 import { FaInstagram, FaGithub, FaLinkedin, FaSlack } from "react-icons/fa";
 
 import picture from "../images/Stefan.jpeg";
@@ -19,25 +18,6 @@ class Main extends Component {
           <br /> Scepanovic
           <p className="title1">Full stack developer</p>
         </p>
-        <div>
-          <Menu right>
-            <a id="home" className="" href="/">
-              Professional
-            </a>
-            <a id="about" className="" href="/about">
-              Projects
-            </a>
-            <a id="contact" className="" href="/contact">
-              Education
-            </a>
-            <a onClick={this.showSettings} className="" href="">
-              Experience
-            </a>
-            <a onClick={this.showSettings} className="" href="">
-              Contact
-            </a>
-          </Menu>
-        </div>
         <a href="https://github.com/scepa991" target="_blank">
           <FaGithub
             style={{
