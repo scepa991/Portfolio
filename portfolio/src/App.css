@@ -162,6 +162,15 @@ Note: Beware of modifying this element as it can break the animations - you shou
   opacity: 0.8;
 }
 
+.expTitle {
+  color: black;
+  position: absolute;
+  top: -5%;
+  left: 19%;
+  font-size: 5vw;
+  font-family: "Arvo";
+}
+
 .proBackground {
   background-image: url(./images/mashine.jpg);
   background-position: center;
@@ -225,7 +234,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 }
 .textBar {
   font-size: 2vw;
-  color: black;
+  color: white;
   font-family: "Arvo";
 }
 .pBar1 {

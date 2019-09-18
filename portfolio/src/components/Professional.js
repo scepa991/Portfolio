@@ -31,24 +31,24 @@ class Professional extends Component {
         </div>
         <div className="pBar">
           <p className="textBar">
-            React <Progress percent={80} />
+            React / React - Native <Progress percent={70} />
           </p>
           <p className="textBar">
-            React - Native <Progress percent={80} />
+            JavaScript <Progress percent={60} />
           </p>
           <p className="textBar">
-            JavaScript <Progress percent={80} />
+            Ruby / Rails <Progress percent={60} />
           </p>
         </div>
         <div className="pBar1">
           <p className="textBar">
-            React <Progress percent={80} />
+            CSS <Progress percent={75} />
           </p>
           <p className="textBar">
-            React - Native <Progress percent={80} />
+            HTML <Progress percent={80} />
           </p>
           <p className="textBar">
-            JavaScript <Progress percent={80} />
+            Node <Progress percent={40} />
           </p>
         </div>
       </div>
