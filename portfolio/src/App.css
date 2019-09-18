@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Dancing+Script");
 @import url("https://fonts.googleapis.com/css?family=Indie+Flower");
+@import url("https://fonts.googleapis.com/css?family=Arvo");
 
 .style {
   height: 100%;
@@ -36,6 +37,15 @@
   top: 80%;
   left: 2%;
   font-size: 2vw;
+}
+
+.title2 {
+  color: black;
+  position: absolute;
+  top: 0%;
+  left: 42%;
+  font-size: 5vw;
+  font-family: "Arvo";
 }
 
 /* Position and sizing of burger button */
@@ -80,6 +90,8 @@ Note: Beware of modifying this element as it can break the animations - you shou
 /* General sidebar styles */
 .bm-menu {
   background: #d3d3d3;
+  font-family: "Arvo";
+  font-size: 3vw;
 }
 
 /* Morph shape necessary with bubble or elastic */
@@ -90,7 +102,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 /* Wrapper for item list */
 .bm-item-list {
   color: #b8b7ad;
-  padding: 15%;
+  padding: 18%;
 }
 
 /* Individual item */
@@ -115,7 +127,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   top: 50%;
   left: 70%;
   font-size: 1vw;
-  font-family: "Indie Flower";
+  font-family: "Arvo";
 }
 
 .educationDiv {
@@ -162,7 +174,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .proDiv {
   height: 100%;
   width: 100%;
-  position: fixed;
+  position: absolute;
 }
 .contBackground {
   background-image: url(./images/city.jpg);
@@ -202,4 +214,24 @@ Note: Beware of modifying this element as it can break the animations - you shou
   height: 100%;
   width: 100%;
   opacity: 0.6;
+}
+
+.pBar {
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  height: 10%;
+  width: 35%;
+}
+.textBar {
+  font-size: 2vw;
+  color: black;
+  font-family: "Arvo";
+}
+.pBar1 {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  height: 10%;
+  width: 35%;
 }

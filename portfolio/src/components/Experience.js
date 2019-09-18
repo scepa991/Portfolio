@@ -6,7 +6,7 @@ class Experience extends Component {
       <div className="expDiv">
         <div className="expBackground"></div>
         <div className="expDiv">
-          <p className="title">Experience</p>
+          <p className="title2">Experience</p>
         </div>
       </div>
     );

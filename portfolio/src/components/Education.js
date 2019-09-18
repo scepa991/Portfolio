@@ -7,7 +7,7 @@ class Education extends Component {
       <div className="educationDiv">
         <div className="educationBackground"></div>
         <div className="newDiv">
-          <p className="title">3. Education</p>
+          <p className="title2">Education</p>
         </div>
       </div>
     );

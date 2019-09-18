@@ -6,7 +6,7 @@ class Projects extends Component {
       <div className="projDiv">
         <div className="projBackground"></div>
         <div className="projDiv">
-          <p className="title">Projects</p>
+          <p className="title2">Projects</p>
         </div>
       </div>
     );

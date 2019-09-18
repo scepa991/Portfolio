@@ -6,7 +6,7 @@ class Contact extends Component {
       <div className="contDiv">
         <div className="contBackground"></div>
         <div className="contDiv">
-          <p className="title">Contact Me</p>
+          <p className="title2">Contact Me</p>
         </div>
       </div>
     );

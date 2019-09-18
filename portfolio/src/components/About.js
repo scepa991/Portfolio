@@ -6,7 +6,7 @@ class About extends Component {
       <div className="aDiv">
         <div className="aBackground"></div>
         <div className="aDiv">
-          <p className="title">Skills</p>
+          <p className="title2">About me</p>
         </div>
       </div>
     );
