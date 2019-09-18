@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import "../App.css";
 import { FaInstagram, FaGithub, FaLinkedin, FaSlack } from "react-icons/fa";
+import { AwesomeButton } from "react-awesome-button";
+import "react-awesome-button/dist/styles.css";
 
 import picture from "../images/Stefan.jpeg";
 
@@ -18,6 +20,17 @@ class Main extends Component {
           <br /> Scepanovic
           <p className="title1">Full stack developer</p>
         </p>
+        <div className="ContactButton">
+          <AwesomeButton
+            type="primary"
+            size="large"
+            href="mailto:scepa91@icloud.com"
+            target="_blank"
+            height=""
+          >
+            Contact me!
+          </AwesomeButton>
+        </div>
         <a href="https://github.com/scepa991" target="_blank">
           <FaGithub
             style={{
