@@ -17,25 +17,25 @@ class App extends Component {
       <div>
         <BrowserRouter>
           <Menu right>
-            <a id="home" className="" href="/">
+            <a id="home" className="a" href="/">
               Home
             </a>
-            <a id="about" className="" href="/about">
+            <a id="about" className="a" href="/about">
               About Me
             </a>
-            <a id="professional" className="" href="/professional">
+            <a id="professional" className="a" href="/professional">
               Professional
             </a>
-            <a id="project" className="" href="/projects">
+            <a id="project" className="a" href="/projects">
               Projects
             </a>
-            <a id="experience" className="" href="/experience">
+            <a id="experience" className="a" href="/experience">
               Experience
             </a>
-            <a id="education" className="" href="/education">
+            <a id="education" className="a" href="/education">
               Education
             </a>
-            <a id="contact" className="" href="/contact">
+            <a id="contact" className="a" href="/contact">
               Contact Me
             </a>
           </Menu>

@@ -42,7 +42,7 @@
 .title2 {
   color: black;
   position: absolute;
-  top: 0%;
+  top: -5%;
   left: 42%;
   font-size: 5vw;
   font-family: "Arvo";
@@ -218,7 +218,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 .pBar {
   position: absolute;
-  top: 25%;
+  top: 55%;
   left: 10%;
   height: 10%;
   width: 35%;
@@ -230,8 +230,29 @@ Note: Beware of modifying this element as it can break the animations - you shou
 }
 .pBar1 {
   position: absolute;
-  top: 25%;
+  top: 55%;
   left: 50%;
   height: 10%;
   width: 35%;
+}
+.a {
+  text-decoration: none !important;
+}
+.img1 {
+  border-radius: 50%;
+  width: 17%;
+  position: absolute;
+  top: 17%;
+  left: 10%;
+}
+.aboutMeDiv {
+  height: 15%;
+  width: 50%;
+  position: absolute;
+  top: 22%;
+  left: 32%;
+}
+.AboutMeText {
+  font-size: 1.4vw;
+  color: #d3d3d3;
 }
