@@ -149,7 +149,6 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .expDiv {
   height: 100%;
   width: 100%;
-  position: fixed;
 }
 
 .expBackground {
@@ -270,4 +269,13 @@ Note: Beware of modifying this element as it can break the animations - you shou
   position: absolute;
   top: 85%;
   left: 32%;
+}
+.line {
+  position: absolute;
+  top: 20%;
+  left: 15%;
+  width: 40%;
+}
+.vertical-timeline-element {
+  position: left;
 }
