@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "../App.css";
 import { FaInstagram, FaGithub, FaLinkedin, FaSlack } from "react-icons/fa";
-import { AwesomeButton } from "react-awesome-button";
+import { IoIosMail } from "react-icons/io";
 import "react-awesome-button/dist/styles.css";
 
 import picture from "../images/Stefan.jpeg";
@@ -20,17 +20,7 @@ class Main extends Component {
           <br /> Scepanovic
           <p className="title1">Full stack developer</p>
         </p>
-        <div className="ContactButton">
-          <AwesomeButton
-            type="primary"
-            size="large"
-            href="mailto:scepa91@icloud.com"
-            target="_blank"
-            height=""
-          >
-            Contact me!
-          </AwesomeButton>
-        </div>
+        <div className="ContactButton"></div>
         <a href="https://github.com/scepa991" target="_blank">
           <FaGithub
             style={{
@@ -68,16 +58,18 @@ class Main extends Component {
             }}
           />
         </a>
-        <FaSlack
-          style={{
-            color: "d3d3d3",
-            width: "3vw",
-            height: "3vw",
-            position: "absolute",
-            top: "1%",
-            left: "56%"
-          }}
-        />
+        <a href="mailto:scepa91@icloud.com" target="_blank">
+          <IoIosMail
+            style={{
+              color: "d3d3d3",
+              width: "3vw",
+              height: "3vw",
+              position: "absolute",
+              top: "1%",
+              left: "56%"
+            }}
+          />
+        </a>
         <p className="quote">
           “I'm not a great programmer;
           <br />

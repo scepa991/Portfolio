@@ -1,8 +1,13 @@
 import React, { Component } from "react";
 import { Progress } from "react-sweet-progress";
 import "react-sweet-progress/lib/style.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 import picture from "../images/stefan1.jpeg";
+import picture1 from "../images/ruby1.png";
+import picture2 from "../images/js2.png";
+import picture3 from "../images/react1.png";
+import picture4 from "../images/dots.jpg";
 
 class Professional extends Component {
   render() {
@@ -29,26 +34,50 @@ class Professional extends Component {
             </p>
           </div>
         </div>
-        <div className="pBar">
-          <p className="textBar">
-            React / React - Native <Progress percent={70} />
-          </p>
-          <p className="textBar">
-            JavaScript <Progress percent={60} />
-          </p>
-          <p className="textBar">
-            Ruby / Rails <Progress percent={60} />
+        <div className="skillTitle">
+          <p>Skills</p>
+        </div>
+
+        <div className="card">
+          <img className="logo" src={picture1} alt={"ruby"} />
+          <h3 className="CardTitle">Ruby</h3>
+          <p className="CardPara">
+            Ruby on Rails
+            <br />
+            API development with Rails
+            <br />
+            RSpec
           </p>
         </div>
-        <div className="pBar1">
-          <p className="textBar">
-            CSS <Progress percent={75} />
+        <div className="card1">
+          <img className="logo" src={picture2} alt={"js"} />
+          <h3 className="CardTitle1">JavaScript</h3>
+          <p className="CardPara">
+            Ruby on Rails
+            <br />
+            API development with Rails
+            <br />
+            RSpec
           </p>
-          <p className="textBar">
-            HTML <Progress percent={80} />
+        </div>
+        <div className="card2">
+          <img className="logo" src={picture3} alt={"ruby"} />
+          <h3 className="CardTitle">React</h3>
+          <p className="CardPara">
+            React Native
+            <br />
+            Redux
           </p>
-          <p className="textBar">
-            Node <Progress percent={40} />
+        </div>
+        <div className="card3">
+          <img className="logo" src={picture4} alt={"ruby"} />
+          <h3 className="CardTitle">Other</h3>
+          <p className="CardPara">
+            SQL (MYSQL, PostgreSQL)
+            <br />
+            HTML / CSS
+            <br />
+            Bootstrap
           </p>
         </div>
       </div>
