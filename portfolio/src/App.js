@@ -9,7 +9,6 @@ import Projects from "./components/Projects";
 import Education from "./components/Education";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
-import About from "./components/About";
 
 class App extends Component {
   render() {
@@ -23,25 +22,18 @@ class App extends Component {
             <a id="about" className="a" href="/about">
               About Me
             </a>
-            <a id="professional" className="a" href="/professional">
-              Professional
-            </a>
             <a id="project" className="a" href="/projects">
               Projects
             </a>
             <a id="experience" className="a" href="/experience">
               Experience
             </a>
-            <a id="education" className="a" href="/education">
-              Education
-            </a>
             <a id="contact" className="a" href="/contact">
               Contact Me
             </a>
           </Menu>
           <Route exact path="/" component={Main} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/professional" component={Professional} />
+          <Route exact path="/about" component={Professional} />
           <Route exact path="/projects" component={Projects} />
           <Route exact path="/education" component={Education} />
           <Route exact path="/experience" component={Experience} />

@@ -12,11 +12,13 @@
     "react-font-face": "^0.2.1",
     "react-icons": "^3.7.0",
     "react-motion-menu": "^0.4.4",
+    "react-pdf": "^4.1.0",
     "react-router": "^5.0.1",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.1.1",
     "react-sweet-progress": "^1.1.2",
-    "react-vertical-timeline-component": "^2.5.0"
+    "react-vertical-timeline-component": "^2.5.0",
+    "simple-react-pdf": "^1.0.9"
   },
   "scripts": {
     "start": "react-scripts start",
