@@ -9,6 +9,7 @@ import Projects from "./components/Projects";
 import Education from "./components/Education";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
+import About from "./components/About";
 
 class App extends Component {
   render() {
@@ -37,7 +38,7 @@ class App extends Component {
           <Route exact path="/projects" component={Projects} />
           <Route exact path="/education" component={Education} />
           <Route exact path="/experience" component={Experience} />
-          <Route exact path="/contact" component={Contact} />
+          <Route exact path="/contact" component={About} />
         </BrowserRouter>
       </div>
     );

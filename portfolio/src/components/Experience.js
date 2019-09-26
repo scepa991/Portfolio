@@ -22,15 +22,15 @@ class Experience extends Component {
               className="vertical-timeline-element--work"
               contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
               contentArrowStyle={{
-                borderLeft: "7px solid  rgb(33, 150, 243)"
+                borderRight: "7px solid  rgb(33, 150, 243)"
               }}
               iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
               icon={<IoIosSchool />}
             >
-              <h3 className="vertical-timeline-element-title">
+              <h3 className="vertical-timeline-element-title naslov">
                 Flatiron School
               </h3>
-              <h4 className="vertical-timeline-element-subtitle">
+              <h4 className="vertical-timeline-element-subtitle naslov">
                 Houston, TX
               </h4>
               <p>The software engineering program.</p>
@@ -45,10 +45,10 @@ class Experience extends Component {
               iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
               icon={<FaCocktail />}
             >
-              <h3 className="vertical-timeline-element-title">
+              <h3 className="vertical-timeline-element-title naslov">
                 King's BierHaus - Mixologist
               </h3>
-              <h4 className="vertical-timeline-element-subtitle">
+              <h4 className="vertical-timeline-element-subtitle naslov">
                 Houston, TX
               </h4>
               <p>
@@ -70,10 +70,10 @@ class Experience extends Component {
               iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
               icon={<FaCocktail />}
             >
-              <h3 className="vertical-timeline-element-title">
+              <h3 className="vertical-timeline-element-title naslov">
                 VikiHall, Bartender & Waiter
               </h3>
-              <h4 className="vertical-timeline-element-subtitle">
+              <h4 className="vertical-timeline-element-subtitle naslov">
                 Houston, TX
               </h4>
               <p>
@@ -91,10 +91,10 @@ class Experience extends Component {
               iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
               icon={<FaCarAlt />}
             >
-              <h3 className="vertical-timeline-element-title">
+              <h3 className="vertical-timeline-element-title naslov">
                 Yura Co. - Shift Leader in Quality Assurance
               </h3>
-              <h4 className="vertical-timeline-element-subtitle">
+              <h4 className="vertical-timeline-element-subtitle naslov">
                 Nis, Serbia
               </h4>
               <p>
@@ -114,10 +114,10 @@ class Experience extends Component {
               icon={<IoIosSchool />}
               layout={"1-column"}
             >
-              <h3 className="vertical-timeline-element-title">
+              <h3 className="vertical-timeline-element-title naslov">
                 College of Law and business Studies "USSE"
               </h3>
-              <h4 className="vertical-timeline-element-subtitle">
+              <h4 className="vertical-timeline-element-subtitle naslov">
                 Nis, Serbia
               </h4>
               <p>
