@@ -37,11 +37,12 @@ class About extends Component {
             </p>
           </div>
         </div>
-        <div className="skillTitle">
-          <Deck />
-        </div>
+
         <div className="skillTitleRight">
-          <Deck1 />
+          <div>
+            <h3>Hobbies</h3>
+            <Deck1 />
+          </div>
         </div>
       </div>
     );

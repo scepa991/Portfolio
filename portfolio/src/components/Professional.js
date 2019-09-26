@@ -34,11 +34,8 @@ class Professional extends Component {
             </p>
           </div>
         </div>
-        <div className="skillTitle">
-          <p>Skills</p>
-        </div>
 
-        <div className="card">
+        <div className="card" style={{ backgroundColor: "#cfd786" }}>
           <img className="logo" src={picture1} alt={"ruby"} />
           <h3 className="CardTitle">Ruby</h3>
           <p className="CardPara">
@@ -63,7 +60,7 @@ class Professional extends Component {
         <div className="card2">
           <img className="logo" src={picture3} alt={"ruby"} />
           <h3 className="CardTitle">React</h3>
-          <p className="CardPara">
+          <p className="CardPara1">
             React Native
             <br />
             Redux
