@@ -33,7 +33,17 @@ class Experience extends Component {
               <h4 className="vertical-timeline-element-subtitle naslov">
                 Houston, TX
               </h4>
-              <p>The software engineering program.</p>
+              <p className="pInExp">
+                Collaborative coding environment where I experimented with new
+                coding technologies and learn from experienced developers at an
+                accelerated pace. I worked with Ruby, JavaScript, React, and
+                HTML/CSS in a front-end capacity as well as Ruby on Rails and
+                Node as back-end tools. I contributed to or built over 10 small
+                project built with Ruby and JavaScript as well as several more
+                advanced projects utilizing React and other libraries. For my
+                final project I used React Native and i build Live Score App for
+                IOS phones.
+              </p>
               <p>May 2019 - September 2019</p>
             </VerticalTimelineElement>
             <VerticalTimelineElement

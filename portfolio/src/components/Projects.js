@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import picture4 from "../images/soccer1.jpg";
-import picture5 from "../images/weather.jpg";
+import picture5 from "../images/meteor.jpg";
 import { FaGithub, FaYoutube } from "react-icons/fa";
 
 class Projects extends Component {
@@ -103,11 +103,11 @@ class Projects extends Component {
                 />
               </a>
               <p class="card-text">
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                Website for Weather forecast and world news - check current
+                weather for any city in the world, along with five days weather
+                forecast.
               </p>
-              <p class="text-muted">Avgust 2019</p>
+              <p class="text-muted">Jul 2019</p>
               <div className="badge1">
                 <p className="size">
                   <span class="badge badge-primary ">React JS</span>

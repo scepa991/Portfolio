@@ -1,9 +1,6 @@
 import React, { Component } from "react";
 import "react-sweet-progress/lib/style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Deck from "./Deck";
-import Deck1 from "./Deck1";
-import FadeIn from "react-fade-in";
 
 import picture from "../images/stefan1.jpeg";
 import picture1 from "../images/ruby1.png";
@@ -41,7 +38,6 @@ class About extends Component {
         <div className="skillTitleRight">
           <div>
             <h3>Hobbies</h3>
-            <Deck1 />
           </div>
         </div>
       </div>

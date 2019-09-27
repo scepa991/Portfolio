@@ -8,7 +8,7 @@ import Professional from "./components/Professional";
 import Projects from "./components/Projects";
 import Education from "./components/Education";
 import Experience from "./components/Experience";
-import Contact from "./components/Contact";
+
 import About from "./components/About";
 
 class App extends Component {
@@ -28,9 +28,6 @@ class App extends Component {
             </a>
             <a id="experience" className="a" href="/experience">
               Experience
-            </a>
-            <a id="contact" className="a" href="/contact">
-              Contact Me
             </a>
           </Menu>
           <Route exact path="/" component={Main} />

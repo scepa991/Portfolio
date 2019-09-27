@@ -279,8 +279,8 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .line {
   position: absolute;
   top: 20%;
-  left: 30%;
-  width: 40%;
+  left: 0%;
+  width: 100%;
 }
 .vertical-timeline-element {
   position: left;
@@ -381,7 +381,8 @@ Note: Beware of modifying this element as it can break the animations - you shou
   font-family: "Arvo";
 }
 .naslov {
-  font-size: 3vw;
+  font-size: 2vw;
+  color: white;
 }
 
 .cardss {
