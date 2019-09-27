@@ -285,13 +285,15 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .vertical-timeline-element {
   position: left;
 }
-.card {
+.card0 {
   width: 17%;
   height: 32%;
   position: absolute;
   left: 9%;
   top: 60%;
   background-color: #cfd786;
+  box-shadow: 5px 6px rgba(0, 0, 0, 0.4);
+  border: 3px solid #6f6f0b;
 }
 .card1 {
   width: 17%;
@@ -300,6 +302,8 @@ Note: Beware of modifying this element as it can break the animations - you shou
   left: 30%;
   top: 60%;
   background-color: #cfd786;
+  box-shadow: 5px 6px rgba(0, 0, 0, 0.4);
+  border: 3px solid #6f6f0b;
 }
 .card2 {
   width: 17%;
@@ -308,6 +312,8 @@ Note: Beware of modifying this element as it can break the animations - you shou
   left: 52%;
   top: 60%;
   background-color: #cfd786;
+  box-shadow: 5px 6px rgba(0, 0, 0, 0.4);
+  border: 3px solid #6f6f0b;
 }
 .card3 {
   width: 17%;
@@ -316,6 +322,8 @@ Note: Beware of modifying this element as it can break the animations - you shou
   left: 74%;
   top: 60%;
   background-color: #cfd786;
+  box-shadow: 5px 6px rgba(0, 0, 0, 0.4);
+  border: 3px solid #6f6f0b;
 }
 .logo {
   width: 50%;
@@ -390,4 +398,64 @@ Note: Beware of modifying this element as it can break the animations - you shou
   font-size: 4vw;
   color: black;
   font-family: "Arvo";
+}
+.projectPage {
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  background-color: aquamarine;
+  flex-basis: auto;
+}
+.card-deck {
+  position: absolute;
+  top: 12%;
+  left: 5%;
+  width: 94%;
+  height: 95%;
+  padding-top: 8vh;
+}
+.card {
+  height: 80%;
+  width: 30%;
+  box-shadow: 5px 6px rgba(0, 0, 0, 0.4);
+}
+
+.card-img-top {
+  height: 60%;
+  width: 100%;
+}
+.card-body {
+  height: 100%;
+  width: 100%;
+}
+.projectTitle {
+  position: absolute;
+  top: 10%;
+  left: 45%;
+}
+.card-text {
+  font-size: 2vh;
+  position: absolute;
+  top: 70%;
+}
+
+.card-title {
+  font-size: 3vh;
+}
+.text-muted {
+  font-size: 2vh;
+  position: absolute;
+  top: 92%;
+  left: 5%;
+}
+.badge1 {
+  position: absolute;
+  top: 85%;
+  left: 4%;
+}
+
+.size {
+  font-size: 2vh;
+  display: inline-block;
+  padding-right: 0.3vh;
 }

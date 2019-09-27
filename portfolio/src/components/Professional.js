@@ -35,7 +35,7 @@ class Professional extends Component {
           </div>
         </div>
 
-        <div className="card" style={{ backgroundColor: "#cfd786" }}>
+        <div className="card0" style={{ backgroundColor: "#cfd786" }}>
           <img className="logo" src={picture1} alt={"ruby"} />
           <h3 className="CardTitle">Ruby</h3>
           <p className="CardPara">
