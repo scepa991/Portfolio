@@ -3,10 +3,6 @@ import "react-sweet-progress/lib/style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import picture from "../images/stefan1.jpeg";
-import picture1 from "../images/ruby1.png";
-import picture2 from "../images/js2.png";
-import picture3 from "../images/react1.png";
-import picture4 from "../images/dots.jpg";
 
 class About extends Component {
   render() {

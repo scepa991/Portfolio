@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { FaInstagram, FaGithub, FaCocktail, FaCarAlt } from "react-icons/fa";
+import { FaCocktail, FaCarAlt } from "react-icons/fa";
 import { IoIosSchool } from "react-icons/io";
 
 import {

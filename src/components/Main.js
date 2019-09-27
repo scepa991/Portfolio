@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import "../App.css";
-import { FaInstagram, FaGithub, FaLinkedin, FaSlack } from "react-icons/fa";
+import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
-import "react-awesome-button/dist/styles.css";
 
 import picture from "../images/Stefan.jpeg";
 
