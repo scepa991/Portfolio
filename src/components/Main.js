@@ -2,12 +2,7 @@ import React, { Component } from "react";
 import "../App.css";
 import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
-import {
-  BrowserView,
-  MobileView,
-  isBrowser,
-  isMobile
-} from "react-device-detect";
+import { BrowserView, MobileView } from "react-device-detect";
 
 class Main extends Component {
   state = {
