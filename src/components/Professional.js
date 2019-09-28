@@ -82,12 +82,12 @@ class Professional extends Component {
         <MobileView>
           <div className="proBackground"></div>
           <div className="proDiv">
-            <p className="title2">About me</p>
+            <p className="mobileTitle2">About me</p>
             <div>
-              <img className="img1" src={picture} alt={"Stefan image"} />
+              <img className="mobileImg1" src={picture} alt={"Stefan image"} />
             </div>
             <div className="aboutMeDiv">
-              <p className="AboutMeText">
+              <p className="MobileAboutMeText">
                 Full stack web developer with passion for Coding. I finished
                 Flatiron school in August 2019. With Flatiron school I was
                 building 6 different full stack solo and team web projects. I

@@ -49,6 +49,14 @@
   font-size: 5vw;
   font-family: "Arvo";
 }
+.mobileTitle2 {
+  color: white;
+  position: absolute;
+  top: 5%;
+  left: 38%;
+  font-size: 2.5vw;
+  font-family: "Arvo";
+}
 
 /* Position and sizing of burger button */
 .bm-burger-button {
@@ -261,6 +269,13 @@ Note: Beware of modifying this element as it can break the animations - you shou
   top: 17%;
   left: 10%;
 }
+.mobileImg1 {
+  border-radius: 50%;
+  width: 25%;
+  position: absolute;
+  top: 17%;
+  left: 10%;
+}
 .aboutMeDiv {
   height: 15%;
   width: 50%;
@@ -270,6 +285,10 @@ Note: Beware of modifying this element as it can break the animations - you shou
 }
 .AboutMeText {
   font-size: 1.4vw;
+  color: #d3d3d3;
+}
+.MobileAboutMeText {
+  font-size: 2vw;
   color: #d3d3d3;
 }
 
@@ -341,7 +360,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   width: 17%;
   height: 20%;
   position: absolute;
-  left: 60%;
+  left: 52%;
   top: 35%;
   background-color: #cfd786;
   box-shadow: 5px 6px rgba(0, 0, 0, 0.4);
@@ -503,12 +522,4 @@ Note: Beware of modifying this element as it can break the animations - you shou
   font-size: 2vh;
   display: inline-block;
   padding-right: 0.3vh;
-}
-.mTitle2 {
-  color: yellow;
-  position: absolute;
-  top: 5%;
-  left: 42%;
-  font-size: 2vw;
-  font-family: "Arvo";
 }
