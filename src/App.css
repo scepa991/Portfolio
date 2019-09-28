@@ -464,11 +464,11 @@ Note: Beware of modifying this element as it can break the animations - you shou
   display: inline-block;
   padding-right: 0.3vh;
 }
-.m.Title2 {
+.mTitle2 {
   color: yellow;
   position: absolute;
   top: 5%;
   left: 42%;
-  font-size: 5vw;
+  font-size: 8vw;
   font-family: "Arvo";
 }
