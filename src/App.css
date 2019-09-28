@@ -5,28 +5,30 @@
 .style {
   height: 100%;
   width: 100%;
-  background: linear-gradient(to left, hsl(180, 26%, 4%) 50%, #d3d3d3 50%);
+  background-image: url("./images/Stefan.jpeg");
+  background-repeat: no-repeat;
+  background-size: 50% 100%;
+  background-color: black;
   color: "black";
   position: fixed;
 }
 
 .img {
-  width: 35%;
-  height: 70%;
-  margin-left: 33%;
-  margin-right: 33%;
-  margin-top: 5%;
-  margin-bottom: 25%;
+  position: absolute;
+  top: 14%;
+  left: 25%;
+  width: 55%;
+  height: 85%;
   border-style: solid;
   border-width: 1%;
   border-color: gray;
 }
 
 .title {
-  color: black;
+  color: white;
   position: absolute;
-  top: 5%;
-  left: 5%;
+  top: 15%;
+  left: 60%;
   font-size: 5vw;
   font-family: "Dancing Script";
 }
@@ -124,9 +126,9 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .quote {
   color: white;
   position: absolute;
-  top: 50%;
-  left: 70%;
-  font-size: 1vw;
+  top: 70%;
+  left: 52%;
+  font-size: 1.5vw;
   font-family: "Arvo";
 }
 
@@ -401,11 +403,11 @@ Note: Beware of modifying this element as it can break the animations - you shou
   font-family: "Arvo";
 }
 .projectPage {
+  height: 100%;
+  width: 100%;
   align-items: center;
   justify-content: center;
-  box-sizing: border-box;
   background-color: aquamarine;
-  flex-basis: auto;
 }
 .card-deck {
   position: absolute;
@@ -414,11 +416,13 @@ Note: Beware of modifying this element as it can break the animations - you shou
   width: 94%;
   height: 95%;
   padding-top: 8vh;
+  flex-direction: row;
 }
 .card {
   height: 80%;
   width: 30%;
   box-shadow: 5px 6px rgba(0, 0, 0, 0.4);
+  resize: both;
 }
 
 .card-img-top {

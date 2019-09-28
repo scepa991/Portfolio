@@ -2,8 +2,12 @@ import React, { Component } from "react";
 import "../App.css";
 import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
-
-import picture from "../images/Stefan.jpeg";
+import {
+  BrowserView,
+  MobileView,
+  isBrowser,
+  isMobile
+} from "react-device-detect";
 
 class Main extends Component {
   state = {
@@ -69,15 +73,12 @@ class Main extends Component {
             }}
           />
         </a>
-        <p className="quote">
-          “I'm not a great programmer;
-          <br />
-          <br />
-          I'm just a good programmer with great habits.” <br />
-          <br />― Kent Beck
-        </p>
-
-        <img className="img" src={picture} alt={"Stefan image"} />
+        <BrowserView>
+          <h1> This is rendered only in browser </h1>
+        </BrowserView>
+        <MobileView>
+          <h1> This is rendered only on mobile </h1>
+        </MobileView>
       </div>
     );
   }
