@@ -40,12 +40,16 @@ class About extends Component {
           </div>
         </BrowserView>
         <MobileView>
+          <div className="proBackground"></div>
           <div className="proDiv">
-            <div className="proBackground"></div>
-            <div className="proDiv">
-              <p className="mTitle2">About ME</p>
-            </div>
+            <p className="title2">About ME</p>
           </div>
+        </MobileView>
+        <BrowserView>
+          <h1> This is rendered only in browser </h1>
+        </BrowserView>
+        <MobileView>
+          <h1> This is rendered only on mobile </h1>
         </MobileView>
       </div>
     );
