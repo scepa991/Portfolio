@@ -54,7 +54,7 @@
   position: absolute;
   top: 5%;
   left: 38%;
-  font-size: 2.5vw;
+  font-size: 5vw;
   font-family: "Arvo";
 }
 
@@ -288,7 +288,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   color: #d3d3d3;
 }
 .MobileAboutMeText {
-  font-size: 2vw;
+  font-size: 1.4vw;
   color: #d3d3d3;
 }
 
@@ -311,7 +311,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   height: 20%;
   position: absolute;
   left: 9%;
-  top: 35%;
+  top: 45%;
   background-color: #cfd786;
   box-shadow: 5px 6px rgba(0, 0, 0, 0.4);
   border: 3px solid #6f6f0b;
@@ -341,7 +341,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   height: 20%;
   position: absolute;
   left: 30%;
-  top: 35%;
+  top: 45%;
   background-color: #cfd786;
   box-shadow: 5px 6px rgba(0, 0, 0, 0.4);
   border: 3px solid #6f6f0b;
@@ -361,7 +361,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   height: 20%;
   position: absolute;
   left: 52%;
-  top: 35%;
+  top: 45%;
   background-color: #cfd786;
   box-shadow: 5px 6px rgba(0, 0, 0, 0.4);
   border: 3px solid #6f6f0b;
@@ -381,7 +381,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   height: 20%;
   position: absolute;
   left: 74%;
-  top: 35%;
+  top: 45%;
   background-color: #cfd786;
   box-shadow: 5px 6px rgba(0, 0, 0, 0.4);
   border: 3px solid #6f6f0b;
