@@ -43,7 +43,7 @@ class About extends Component {
           <div className="proDiv">
             <div className="proBackground"></div>
             <div className="proDiv">
-              <p className="mTitle2">About me</p>
+              <p className="mTitle2">About ME</p>
               <div>
                 <img className="img1" src={picture} alt={"Stefan image"} />
               </div>
