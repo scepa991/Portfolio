@@ -287,6 +287,16 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .vertical-timeline-element {
   position: left;
 }
+.MobileCard0 {
+  width: 17%;
+  height: 20%;
+  position: absolute;
+  left: 9%;
+  top: 35%;
+  background-color: #cfd786;
+  box-shadow: 5px 6px rgba(0, 0, 0, 0.4);
+  border: 3px solid #6f6f0b;
+}
 .card0 {
   width: 17%;
   height: 32%;
@@ -307,6 +317,16 @@ Note: Beware of modifying this element as it can break the animations - you shou
   box-shadow: 5px 6px rgba(0, 0, 0, 0.4);
   border: 3px solid #6f6f0b;
 }
+.MobileCard1 {
+  width: 17%;
+  height: 20%;
+  position: absolute;
+  left: 30%;
+  top: 35%;
+  background-color: #cfd786;
+  box-shadow: 5px 6px rgba(0, 0, 0, 0.4);
+  border: 3px solid #6f6f0b;
+}
 .card2 {
   width: 17%;
   height: 32%;
@@ -317,12 +337,32 @@ Note: Beware of modifying this element as it can break the animations - you shou
   box-shadow: 5px 6px rgba(0, 0, 0, 0.4);
   border: 3px solid #6f6f0b;
 }
+.MobileCard2 {
+  width: 17%;
+  height: 20%;
+  position: absolute;
+  left: 60%;
+  top: 35%;
+  background-color: #cfd786;
+  box-shadow: 5px 6px rgba(0, 0, 0, 0.4);
+  border: 3px solid #6f6f0b;
+}
 .card3 {
   width: 17%;
   height: 32%;
   position: absolute;
   left: 74%;
   top: 60%;
+  background-color: #cfd786;
+  box-shadow: 5px 6px rgba(0, 0, 0, 0.4);
+  border: 3px solid #6f6f0b;
+}
+.MobileCard3 {
+  width: 17%;
+  height: 20%;
+  position: absolute;
+  left: 74%;
+  top: 35%;
   background-color: #cfd786;
   box-shadow: 5px 6px rgba(0, 0, 0, 0.4);
   border: 3px solid #6f6f0b;

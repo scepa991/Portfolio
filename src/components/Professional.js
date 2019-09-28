@@ -82,7 +82,7 @@ class Professional extends Component {
         <MobileView>
           <div className="proBackground"></div>
           <div className="proDiv">
-            <p className="mTitle2">About me</p>
+            <p className="title2">About me</p>
             <div>
               <img className="img1" src={picture} alt={"Stefan image"} />
             </div>
@@ -102,7 +102,7 @@ class Professional extends Component {
             </div>
           </div>
 
-          <div className="card0" style={{ backgroundColor: "#cfd786" }}>
+          <div className="MobileCard0" style={{ backgroundColor: "#cfd786" }}>
             <img className="logo" src={picture1} alt={"ruby"} />
             <h3 className="CardTitle">Ruby</h3>
             <p className="CardPara">
@@ -113,7 +113,7 @@ class Professional extends Component {
               RSpec
             </p>
           </div>
-          <div className="card1">
+          <div className="MobileCard1">
             <img className="logo" src={picture2} alt={"js"} />
             <h3 className="CardTitle1">JavaScript</h3>
             <p className="CardPara">
@@ -124,7 +124,7 @@ class Professional extends Component {
               RSpec
             </p>
           </div>
-          <div className="card2">
+          <div className="MobileCard2">
             <img className="logo" src={picture3} alt={"ruby"} />
             <h3 className="CardTitle">React</h3>
             <p className="CardPara1">
@@ -133,7 +133,7 @@ class Professional extends Component {
               Redux
             </p>
           </div>
-          <div className="card3">
+          <div className="MobileCard3">
             <img className="logo" src={picture4} alt={"ruby"} />
             <h3 className="CardTitle">Other</h3>
             <p className="CardPara">
