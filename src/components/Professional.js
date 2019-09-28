@@ -20,8 +20,8 @@ class Professional extends Component {
             <div>
               <img className="img1" src={picture} alt={"Stefan image"} />
             </div>
-            <div className="aboutMeDiv">
-              <p className="AboutMeText">
+            <div className="MobileAboutMeDiv">
+              <p className="MobileAboutMeText">
                 Full stack web developer with passion for Coding. I finished
                 Flatiron school in August 2019. With Flatiron school I was
                 building 6 different full stack solo and team web projects. I

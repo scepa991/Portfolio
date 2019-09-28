@@ -283,8 +283,15 @@ Note: Beware of modifying this element as it can break the animations - you shou
   top: 18%;
   left: 32%;
 }
+.MobileAboutMeDiv {
+  height: 15%;
+  width: 50%;
+  position: absolute;
+  top: 19%;
+  left: 35%;
+}
 .AboutMeText {
-  font-size: 1.4vw;
+  font-size: 1.6vw;
   color: #d3d3d3;
 }
 .MobileAboutMeText {
