@@ -8,10 +8,11 @@ class Projects extends Component {
   render() {
     return (
       <div className="ProjectPage">
-        <div className="projectTitle">
-          <h1>Projects</h1>
-        </div>
         <BrowserView>
+          <div className="projectTitle">
+            <h1>Projects</h1>
+          </div>
+
           <div className="CardDeck">
             <div className="card">
               <img src={picture4} class="card-img-top" alt="..." />
@@ -142,7 +143,11 @@ class Projects extends Component {
             </div>
           </div>
         </BrowserView>
+
         <MobileView>
+          <div className="MobileProjectTitle">
+            <h1>Projects</h1>
+          </div>
           <div className="CardDeck">
             <div className="card">
               <img src={picture4} class="card-img-top" alt="..." />
@@ -173,7 +178,7 @@ class Projects extends Component {
                       width: "3vw",
                       height: "3vw",
                       position: "absolute",
-                      top: "92%",
+                      top: "96%",
                       left: "89%"
                     }}
                   />
@@ -222,8 +227,8 @@ class Projects extends Component {
                       width: "3vw",
                       height: "3vw",
                       position: "absolute",
-                      top: "92%",
-                      left: "80%"
+                      top: "96%",
+                      left: "78%"
                     }}
                   />
                 </a>
@@ -237,7 +242,7 @@ class Projects extends Component {
                       width: "3vw",
                       height: "3vw",
                       position: "absolute",
-                      top: "92%",
+                      top: "96%",
                       left: "89%"
                     }}
                   />
