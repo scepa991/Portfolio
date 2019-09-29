@@ -503,6 +503,11 @@ Note: Beware of modifying this element as it can break the animations - you shou
   top: 10%;
   left: 45%;
 }
+.MobileProjectTitle {
+  position: absolute;
+  top: 10%;
+  left: 38%;
+}
 .card-text {
   font-size: 2vh;
   position: absolute;
@@ -520,7 +525,6 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .MobileCard-title {
   font-size: 2vh;
   position: absolute;
-  top: ;
 }
 .text-muted {
   font-size: 2vh;
@@ -531,7 +535,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .MobileText-muted {
   font-size: 1vh;
   position: absolute;
-  top: 95%;
+  top: 97%;
   left: 5%;
 }
 .badge1 {
@@ -553,7 +557,5 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .MobileSize {
   font-size: 1vh;
   display: inline-block;
-  padding-right: 0.2vh;
-  margin-top: 0;
-  margin-bottom: 0;
+  padding-right: 0.2vh 0.4vh;
 }

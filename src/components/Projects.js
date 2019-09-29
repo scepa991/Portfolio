@@ -158,8 +158,8 @@ class Projects extends Component {
                       width: "3vw",
                       height: "3vw",
                       position: "absolute",
-                      top: "92%",
-                      left: "80%"
+                      top: "96%",
+                      left: "78%"
                     }}
                   />
                 </a>
