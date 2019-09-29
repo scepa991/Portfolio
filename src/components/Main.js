@@ -111,7 +111,7 @@ class Main extends Component {
                 height: "6vw",
                 position: "absolute",
                 top: "1%",
-                left: "37%"
+                left: "36%"
               }}
             />
           </a>
