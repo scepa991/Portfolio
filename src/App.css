@@ -529,7 +529,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .MobileText-muted {
   font-size: 1vh;
   position: absolute;
-  top: 92%;
+  top: 95%;
   left: 5%;
 }
 .badge1 {
@@ -547,4 +547,6 @@ Note: Beware of modifying this element as it can break the animations - you shou
   font-size: 1vh;
   display: inline-block;
   padding-right: 0.2vh;
+  margin-top: 0.2vh;
+  margin-bottom: 0.2vh;
 }

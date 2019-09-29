@@ -211,7 +211,7 @@ class Projects extends Component {
             <div className="card">
               <img src={picture5} class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="MobileCard-title">Weather Forecast App</h5>
+                <h5 class="MobileCard-title">Weather App</h5>
                 <a
                   href="https://github.com/scepa991/weather_app"
                   target="_blank"
