@@ -482,7 +482,6 @@ Note: Beware of modifying this element as it can break the animations - you shou
   box-sizing: border-box;
   display: flex;
   align-content: center;
-  background-color: aqua;
 }
 .card {
   height: 80%;
@@ -518,8 +517,17 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .card-title {
   font-size: 3vh;
 }
+.MobileCard-title {
+  font-size: 2vh;
+}
 .text-muted {
   font-size: 2vh;
+  position: absolute;
+  top: 92%;
+  left: 5%;
+}
+.MobileText-muted {
+  font-size: 1vh;
   position: absolute;
   top: 92%;
   left: 5%;
@@ -536,7 +544,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   padding-right: 0.3vh;
 }
 .MobileSize {
-  font-size: 2vh;
+  font-size: 1vh;
   display: inline-block;
-  padding-right: 0.3vh;
+  padding-right: 0.2vh;
 }
