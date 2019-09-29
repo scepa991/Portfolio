@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import "../App.css";
 import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
-import { BrowserView, MobileView } from "react-device-detect";
 
 class Main extends Component {
   state = {
@@ -68,12 +67,6 @@ class Main extends Component {
             }}
           />
         </a>
-        <BrowserView>
-          <h1> This is rendered only in browser </h1>
-        </BrowserView>
-        <MobileView>
-          <h1> This is rendered only on mobile </h1>
-        </MobileView>
       </div>
     );
   }

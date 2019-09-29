@@ -185,7 +185,7 @@ class Projects extends Component {
                   past or future games.
                 </p>
                 <p class="MobileText-muted">Avgust 2019</p>
-                <div className="badge1">
+                <div className="MobileBadge1">
                   <p className="MobileSize">
                     <span class="badge badge-primary ">React Native</span>
                   </p>
@@ -248,7 +248,7 @@ class Projects extends Component {
                   weather forecast.
                 </p>
                 <p class="MobileText-muted">Jul 2019</p>
-                <div className="badge1">
+                <div className="MobileBadge1">
                   <p className="MobileSize">
                     <span class="badge badge-primary ">React JS</span>
                   </p>
