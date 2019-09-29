@@ -497,6 +497,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .card-body {
   height: 100%;
   width: 100%;
+  padding-top: 0;
 }
 .projectTitle {
   position: absolute;
@@ -556,6 +557,6 @@ Note: Beware of modifying this element as it can break the animations - you shou
 }
 .MobileSize {
   font-size: 1vh;
-  display: inline-block;
-  padding: 0.2vh 0.4vh;
+  display: inline;
+  padding: 0.1vh 0.1vh;
 }
