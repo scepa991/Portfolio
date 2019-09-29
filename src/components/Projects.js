@@ -2,15 +2,17 @@ import React, { Component } from "react";
 import picture4 from "../images/soccer1.jpg";
 import picture5 from "../images/meteor.jpg";
 import { FaGithub, FaYoutube } from "react-icons/fa";
+import { BrowserView, MobileView } from "react-device-detect";
 
 class Projects extends Component {
   render() {
     return (
-      <div className="projectPage">
+      <div className="ProjectPage">
         <div className="projectTitle">
           <h1>Projects</h1>
         </div>
-        <div class="card-deck">
+
+        <div className="CardDeck">
           <div className="card">
             <img src={picture4} class="card-img-top" alt="..." />
             <div class="card-body">
@@ -42,33 +44,64 @@ class Projects extends Component {
                   }}
                 />
               </a>
-              <p class="card-text">
-                Live Score is app where you can check live scores for any soccer
-                game, along with information and statistics for any past or
-                future games.
-              </p>
-              <p class="text-muted">Avgust 2019</p>
-              <div className="badge1">
-                <p className="size">
-                  <span class="badge badge-primary ">React Native</span>
+              <BrowserView>
+                <p class="card-text">
+                  Live Score is app where you can check live scores for any
+                  soccer game, along with information and statistics for any
+                  past or future games.
                 </p>
+                <p class="text-muted">Avgust 2019</p>
+                <div className="badge1">
+                  <p className="size">
+                    <span class="badge badge-primary ">React Native</span>
+                  </p>
 
-                <p className="size">
-                  <span class="badge badge-primary ">Ruby on Rails</span>
-                </p>
+                  <p className="size">
+                    <span class="badge badge-primary ">Ruby on Rails</span>
+                  </p>
 
-                <p className="size">
-                  <span class="badge badge-primary ">JSON Web Token</span>
-                </p>
+                  <p className="size">
+                    <span class="badge badge-primary ">JSON Web Token</span>
+                  </p>
 
-                <p className="size">
-                  <span class="badge badge-primary ">Redux</span>
-                </p>
+                  <p className="size">
+                    <span class="badge badge-primary ">Redux</span>
+                  </p>
 
-                <p className="size">
-                  <span class="badge badge-primary ">PostgreSQL</span>
+                  <p className="size">
+                    <span class="badge badge-primary ">PostgreSQL</span>
+                  </p>
+                </div>
+              </BrowserView>
+              <MobileView>
+                <p class="MobileCard-text">
+                  Live Score is app where you can check live scores for any
+                  soccer game, along with information and statistics for any
+                  past or future games.
                 </p>
-              </div>
+                <p class="text-muted">Avgust 2019</p>
+                <div className="badge1">
+                  <p className="MobileSize">
+                    <span class="badge badge-primary ">React Native</span>
+                  </p>
+
+                  <p className="MobileSize">
+                    <span class="badge badge-primary ">Ruby on Rails</span>
+                  </p>
+
+                  <p className="MobileSize">
+                    <span class="badge badge-primary ">JSON Web Token</span>
+                  </p>
+
+                  <p className="MobileSize">
+                    <span class="badge badge-primary ">Redux</span>
+                  </p>
+
+                  <p className="MobileSize">
+                    <span class="badge badge-primary ">PostgreSQL</span>
+                  </p>
+                </div>
+              </MobileView>
             </div>
           </div>
           <div className="card">

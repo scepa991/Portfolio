@@ -471,24 +471,24 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .projectPage {
   height: 100%;
   width: 100%;
-  align-items: center;
-  justify-content: center;
-  background-color: aquamarine;
+  background-color: red;
 }
-.card-deck {
+.CardDeck {
   position: absolute;
-  top: 12%;
+  top: 16%;
   left: 5%;
-  width: 94%;
-  height: 95%;
-  padding-top: 8vh;
-  flex-direction: row;
+  width: 90%;
+  height: 80%;
+  box-sizing: border-box;
+  display: flex;
+  align-content: center;
+  background-color: aqua;
 }
 .card {
   height: 80%;
-  width: 30%;
+  width: 38%;
   box-shadow: 5px 6px rgba(0, 0, 0, 0.4);
-  resize: both;
+  margin: 2rem;
 }
 
 .card-img-top {
@@ -509,6 +509,11 @@ Note: Beware of modifying this element as it can break the animations - you shou
   position: absolute;
   top: 70%;
 }
+.MobileCard-text {
+  font-size: 1vh;
+  position: absolute;
+  top: 70%;
+}
 
 .card-title {
   font-size: 3vh;
@@ -526,6 +531,11 @@ Note: Beware of modifying this element as it can break the animations - you shou
 }
 
 .size {
+  font-size: 2vh;
+  display: inline-block;
+  padding-right: 0.3vh;
+}
+.MobileSize {
   font-size: 2vh;
   display: inline-block;
   padding-right: 0.3vh;
