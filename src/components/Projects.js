@@ -163,7 +163,7 @@ class Projects extends Component {
                       width: "3vw",
                       height: "3vw",
                       position: "absolute",
-                      top: "96%",
+                      top: "94%",
                       left: "78%"
                     }}
                   />
@@ -178,7 +178,7 @@ class Projects extends Component {
                       width: "3vw",
                       height: "3vw",
                       position: "absolute",
-                      top: "96%",
+                      top: "94%",
                       left: "89%"
                     }}
                   />
@@ -227,7 +227,7 @@ class Projects extends Component {
                       width: "3vw",
                       height: "3vw",
                       position: "absolute",
-                      top: "96%",
+                      top: "94%",
                       left: "78%"
                     }}
                   />
@@ -242,7 +242,7 @@ class Projects extends Component {
                       width: "3vw",
                       height: "3vw",
                       position: "absolute",
-                      top: "96%",
+                      top: "94%",
                       left: "89%"
                     }}
                   />

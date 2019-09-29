@@ -526,6 +526,8 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .MobileCard-title {
   font-size: 2vh;
   position: absolute;
+  top: 65%;
+  left: 15%;
 }
 .text-muted {
   font-size: 2vh;
@@ -558,5 +560,5 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .MobileSize {
   font-size: 1vh;
   display: inline;
-  padding: 0.1vh 0.1vh;
+  padding: 0.1vh 0;
 }
