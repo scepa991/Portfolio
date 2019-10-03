@@ -393,7 +393,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   box-shadow: 5px 6px rgba(0, 0, 0, 0.4);
   border: 3px solid #6f6f0b;
 }
-.logo {
+.logo1 {
   width: 50%;
   height: 50%;
   margin-left: 25%;
@@ -564,8 +564,10 @@ Note: Beware of modifying this element as it can break the animations - you shou
 }
 .logo {
   position: absolute;
-  top: 10%;
-  left: 30%;
+  top: 20%;
+  left: 53%;
   height: 40%;
   width: 40%;
+  
+  
 }

@@ -28,7 +28,7 @@ class Professional extends Component {
           </div>
 
           <div className="card0" style={{ backgroundColor: "#cfd786" }}>
-            <img className="logo" src={picture1} alt={"ruby"} />
+            <img className="logo1" src={picture1} alt={"ruby"} />
             <h3 className="CardTitle">Ruby</h3>
             <p className="CardPara">
               Ruby on Rails
@@ -39,7 +39,7 @@ class Professional extends Component {
             </p>
           </div>
           <div className="card1">
-            <img className="logo" src={picture2} alt={"js"} />
+            <img className="logo1" src={picture2} alt={"js"} />
             <h3 className="CardTitle1">JavaScript</h3>
             <p className="CardPara">
               Ruby on Rails
@@ -50,7 +50,7 @@ class Professional extends Component {
             </p>
           </div>
           <div className="card2">
-            <img className="logo" src={picture3} alt={"ruby"} />
+            <img className="logo1" src={picture3} alt={"ruby"} />
             <h3 className="CardTitle">React</h3>
             <p className="CardPara1">
               React Native
@@ -59,7 +59,7 @@ class Professional extends Component {
             </p>
           </div>
           <div className="card3">
-            <img className="logo" src={picture4} alt={"ruby"} />
+            <img className="logo1" src={picture4} alt={"ruby"} />
             <h3 className="CardTitle">Other</h3>
             <p className="CardPara">
               SQL (MYSQL, PostgreSQL)
@@ -85,7 +85,7 @@ class Professional extends Component {
           </div>
 
           <div className="MobileCard0" style={{ backgroundColor: "#cfd786" }}>
-            <img className="logo" src={picture1} alt={"ruby"} />
+            <img className="logo1" src={picture1} alt={"ruby"} />
             <h3 className="CardTitle">Ruby</h3>
             <p className="CardPara">
               Ruby on Rails
@@ -96,7 +96,7 @@ class Professional extends Component {
             </p>
           </div>
           <div className="MobileCard1">
-            <img className="logo" src={picture2} alt={"js"} />
+            <img className="logo1" src={picture2} alt={"js"} />
             <h3 className="CardTitle1">JavaScript</h3>
             <p className="CardPara">
               Ruby on Rails
@@ -107,7 +107,7 @@ class Professional extends Component {
             </p>
           </div>
           <div className="MobileCard2">
-            <img className="logo" src={picture3} alt={"ruby"} />
+            <img className="logo1" src={picture3} alt={"ruby"} />
             <h3 className="CardTitle">React</h3>
             <p className="CardPara1">
               React Native
@@ -116,7 +116,7 @@ class Professional extends Component {
             </p>
           </div>
           <div className="MobileCard3">
-            <img className="logo" src={picture4} alt={"ruby"} />
+            <img className="logo1" src={picture4} alt={"ruby"} />
             <h3 className="CardTitle">Other</h3>
             <p className="CardPara">
               SQL (MYSQL, PostgreSQL)
