@@ -9,7 +9,7 @@ class Projects extends Component {
     return (
       <div className="ProjectPage">
         <BrowserView>
-          <div className="projectTitle">
+          <div className="title2">
             <h1>Projects</h1>
           </div>
 
