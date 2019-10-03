@@ -3,6 +3,7 @@ import "../App.css";
 import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
 import { BrowserView, MobileView } from "react-device-detect";
+import logo from "../images/newLogo.jpg"
 
 class Main extends Component {
   state = {
@@ -14,11 +15,7 @@ class Main extends Component {
     return (
       <div className="style">
         <BrowserView>
-          <p className="title">
-            Stefan
-            <br /> Scepanovic
-            <p className="title1">Full stack developer</p>
-          </p>
+          <img className="logo" src={logo} alt="logo" />
           <div className="ContactButton"></div>
           <a href="https://github.com/scepa991" target="_blank">
             <FaGithub
