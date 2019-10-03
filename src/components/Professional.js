@@ -22,10 +22,7 @@ class Professional extends Component {
             </div>
             <div className="aboutMeDiv">
               <p className="AboutMeText">
-                 First and foremost, I love writing code. Ever since I started my own journey with some basics code and manipulating it to produce partial output, I have been obsessed with idea of using software to salve practical problems. Software engineering is never-ending puzzle that i am passionately engaged in solving. I believe in power of programming to transform and improve the lives of people around the world.
-                 I have Bachelor degree in Bachelor of Science, Public Security Management, which I completed in Serbia, Southeast Europe. I didn't find myself in that industry and eager for adventure I decide to move in USA. When i moved here i didn't speak English so I started working as a bartender at "Kings BierHaus".
-                 After two years of bartending and when my English was better i decided to follow my passion for coding and i started Flatiron School. I studied new languages, web and front-end Frameworks, with six group and solo full stack projects. I enjoyed it all the time and was fascinated how much i love coding and it was here that i learned truly how much there was yet to learn.
-                 So, now, in industry, this passion remains with me. There's certainly yet more to learn, yet more problems to solve and yet more to build. And for this I am very grateful.
+                Full Stack Web Developer with a passion to make a positive difference in people’s lives through code. With experience In Ruby on Rails, JavaScript, and React Native, I discovered web development through my curiosity to understand how websites work. I arrived in the United States from Serbia without knowing English. However, being a person who learns very quickly, I was speaking the language within a few months and utilizing it fully in my first job. I bring strong skills in problem-solving, creativity, and strategic thinking. 
               </p>
             </div>
           </div>
@@ -82,16 +79,7 @@ class Professional extends Component {
             </div>
             <div className="MobileAboutMeDiv">
               <p className="MobileAboutMeText">
-                Full stack web developer with passion for Coding. I finished
-                Flatiron school in August 2019. With Flatiron school I was
-                building 6 different full stack solo and team web projects. I
-                also learn about object-oriented and user-centered design. Ready
-                to start new journey with new job, learning and working on my
-                new developer skills. I love challenges, and I’m ready to learn
-                new developer skills. I’m an avid basketball player, and fun
-                fact, I played semi-professionally in Serbia, Europe. I’m three
-                time in row We Work ping-pong champion. I’m doing hot yoga and
-                I’m active volunteer in “Faith in Practice”.
+                Full Stack Web Developer with a passion to make a positive difference in people’s lives through code. With experience In Ruby on Rails, JavaScript, and React Native, I discovered web development through my curiosity to understand how websites work. I arrived in the United States from Serbia without knowing English. However, being a person who learns very quickly, I was speaking the language within a few months and utilizing it fully in my first job. I bring strong skills in problem-solving, creativity, and strategic thinking. 
               </p>
             </div>
           </div>

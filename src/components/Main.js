@@ -69,11 +69,7 @@ class Main extends Component {
         </BrowserView>
 
         <MobileView>
-          <p className="title">
-            Stefan
-            <br /> Scepanovic
-            <p className="title1">Full stack developer</p>
-          </p>
+          <img className="logo" src={logo} alt="logo" />
           <div className="ContactButton"></div>
           <a href="https://github.com/scepa991" target="_blank">
             <FaGithub
