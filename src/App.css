@@ -471,23 +471,35 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .projectPage {
   height: 100%;
   width: 100%;
-  background-color: red;
+  align-content: center;
 }
 .CardDeck {
-  position: absolute;
-  top: 16%;
-  left: 5%;
   width: 90%;
   height: 80%;
   box-sizing: border-box;
   display: flex;
+  flex-wrap: wrap;
   align-content: center;
+  margin-top: 5%;
+  
 }
-.card {
-  height: 80%;
+
+.card10 {
+  min-width: 230px;
+  position: relative;
+  flex-direction: column;
+  margin: auto;
+  height: 100%;
   width: 38%;
   box-shadow: 5px 6px rgba(0, 0, 0, 0.4);
-  margin: 2rem;
+  justify-content: space-around
+  
+}
+@media screen and (min-width: 321px) {
+  .card10 {
+  margin-bottom: 40px;
+    
+  }
 }
 
 .card-img-top {
@@ -497,12 +509,13 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .card-body {
   height: 100%;
   width: 100%;
-  padding-top: 0;
+  
 }
 .projectTitle {
-  position: absolute;
-  top: 10%;
-  left: 45%;
+  position: relative;
+  text-align: center;
+  padding-top: 15px;
+ 
 }
 .MobileProjectTitle {
   position: absolute;
@@ -511,13 +524,12 @@ Note: Beware of modifying this element as it can break the animations - you shou
 }
 .card-text {
   font-size: 2vh;
-  position: absolute;
-  top: 70%;
+  
+ 
 }
 .MobileCard-text {
   font-size: 1vh;
-  position: absolute;
-  top: 70%;
+  
 }
 
 .card-title {
@@ -569,5 +581,12 @@ Note: Beware of modifying this element as it can break the animations - you shou
   height: 40%;
   width: 40%;
   
+}
+.title4 {
+  font-size: 8vh;
   
+}
+.imageCard {
+  height: 100%;
+  width: 100%;
 }
