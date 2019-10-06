@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import "../App.css";
-import { FaInstagram, FaGithub, FaLinkedin, FaSlack } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
-import "react-awesome-button/dist/styles.css";
+import { BrowserView, MobileView } from "react-device-detect";
+import logo from "../images/logo.png"
 
-import picture from "../images/Stefan.jpeg";
+import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
 
 class Main extends Component {
   state = {
@@ -15,73 +15,166 @@ class Main extends Component {
   render() {
     return (
       <div className="style">
-        <p className="title">
-          Stefan
-          <br /> Scepanovic
-          <p className="title1">Full stack developer</p>
-        </p>
-        <div className="ContactButton"></div>
-        <a href="https://github.com/scepa991" target="_blank">
-          <FaGithub
-            style={{
-              color: "black",
-              width: "3vw",
-              height: "3vw",
-              position: "absolute",
-              top: "1%",
-              left: "45%"
-            }}
-          />
-        </a>
+        
+          <img className="logo" src={logo} alt="logo" />
+          <div className="iconsDiv">
+           <a href="https://github.com/scepa991" target="_blank">
+            <FaGithub
+              style={{
+                color: "#d3d3d3",
+                width: "5vw",
+                height: "5vw",
+                
+              }}
+            />
+          </a>
 
-        <a href="https://instagram.com/scepa991/" target="_blank">
-          <FaInstagram
-            style={{
-              color: "#d3d3d3",
-              width: "3vw",
-              height: "3vw",
-              position: "absolute",
-              top: "1%",
-              left: "51%"
-            }}
-          />
-        </a>
-        <a href="https://linkedin.com/in/stefanscepanovic/" target="_blank">
-          <FaLinkedin
-            style={{
-              color: "black",
-              width: "3vw",
-              height: "3vw",
-              position: "absolute",
-              top: "1%",
-              left: "40%"
-            }}
-          />
-        </a>
-        <a href="mailto:scepa91@icloud.com" target="_blank">
-          <IoIosMail
-            style={{
-              color: "d3d3d3",
-              width: "3vw",
-              height: "3vw",
-              position: "absolute",
-              top: "1%",
-              left: "56%"
-            }}
-          />
-        </a>
-        <p className="quote">
-          “I'm not a great programmer;
-          <br />
-          <br />
-          I'm just a good programmer with great habits.” <br />
-          <br />― Kent Beck
-        </p>
+          <a href="https://instagram.com/scepa991/" target="_blank">
+            <FaInstagram
+              style={{
+                color: "#d3d3d3",
+                width: "5vw",
+                height: "5vw",
+                
+              }}
+            />
+          </a>
+          <a href="https://linkedin.com/in/stefanscepanovic/" target="_blank">
+            <FaLinkedin
+              style={{
+                color: "#d3d3d3",
+                width: "5vw",
+                height: "5vw",
+                
+              }}
+            />
+          </a>
+          <a href="mailto:scepa91@icloud.com" target="_blank">
+            <IoIosMail
+              style={{
+                color: "#d3d3d3",
+                width: "5vw",
+                height: "5vw",
+                
+              }}
+            />
+          </a>
+          </div>
+          
+        
+        {/* <MobileView>
+        <img className="MobileLogo" src={logo} alt="logo" />
+           <a href="https://github.com/scepa991" target="_blank">
+            <FaGithub
+              style={{
+                color: "#d3d3d3",
+                width: "9vw",
+                height: "9vw",
+                position: "absolute",
+                top: "20%",
+                left: "88%"
+              }}
+            />
+          </a>
 
-        <img className="img" src={picture} alt={"Stefan image"} />
+          <a href="https://instagram.com/scepa991/" target="_blank">
+            <FaInstagram
+              style={{
+                color: "#d3d3d3",
+                width: "9vw",
+                height: "9vw",
+                position: "absolute",
+                top: "25%",
+                left: "88%"
+              }}
+            />
+          </a>
+          <a href="https://linkedin.com/in/stefanscepanovic/" target="_blank">
+            <FaLinkedin
+              style={{
+                minwidth: "230px",
+                color: "#d3d3d3",
+                width: "9vw",
+                height: "9vw",
+                position: "absolute",
+                top: "30%",
+                left: "88%"
+              }}
+            />
+          </a>
+          <a href="mailto:scepa91@icloud.com" target="_blank">
+            <IoIosMail
+              style={{
+                color: "#d3d3d3",
+                width: "9vw",
+                height: "9vw",
+                position: "absolute",
+                top: "35%",
+                left: "88%"
+              }}
+            />
+          </a>
+        </MobileView> */}
+
+        
       </div>
     );
   }
 }
 
 export default Main;
+
+
+// <MobileView>
+//           <img className="logo" src={logo} alt="logo" />
+//           <div className="ContactButton"></div>
+//           <a href="https://github.com/scepa991" target="_blank">
+//             <FaGithub
+//               style={{
+//                 color: "black",
+//                 width: "6vw",
+//                 height: "6vw",
+//                 position: "absolute",
+//                 top: "1%",
+//                 left: "43%"
+//               }}
+//             />
+//           </a>
+
+//           <a href="https://instagram.com/scepa991/" target="_blank">
+//             <FaInstagram
+//               style={{
+//                 color: "#d3d3d3",
+//                 width: "6vw",
+//                 height: "6vw",
+//                 position: "absolute",
+//                 top: "1%",
+//                 left: "51%"
+//               }}
+//             />
+//           </a>
+//           <a href="https://linkedin.com/in/stefanscepanovic/" target="_blank">
+//             <FaLinkedin
+//               style={{
+//                 color: "black",
+//                 width: "6vw",
+//                 height: "6vw",
+//                 position: "absolute",
+//                 top: "1%",
+//                 left: "36%"
+//               }}
+//             />
+//           </a>
+//           <a href="mailto:scepa91@icloud.com" target="_blank">
+//             <IoIosMail
+//               style={{
+//                 color: "d3d3d3",
+//                 width: "6vw",
+//                 height: "6vw",
+//                 position: "absolute",
+//                 top: "1%",
+//                 left: "58%"
+//               }}
+//             />
+//           </a>
+//         </MobileView>

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import { FaInstagram, FaGithub, FaCocktail, FaCarAlt } from "react-icons/fa";
-import { IoIosSchool } from "react-icons/io";
+import { FaCocktail, FaCarAlt, FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
+import { IoIosSchool, IoIosMail } from "react-icons/io";
+
 
 import {
   VerticalTimeline,
@@ -16,15 +17,16 @@ class Experience extends Component {
         <div>
           <p className="expTitle">Experience & Education</p>
         </div>
+        
         <div className="line">
           <VerticalTimeline>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+              contentStyle={{ background: "black", color: "#fff", opacity: "0.8" }}
               contentArrowStyle={{
-                borderRight: "7px solid  rgb(33, 150, 243)"
+                borderRight: "7px solid  black"
               }}
-              iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+              iconStyle={{ background: "black", color: "#fff", opacity: "0.8" }}
               icon={<IoIosSchool />}
             >
               <h3 className="vertical-timeline-element-title naslov">
@@ -48,11 +50,11 @@ class Experience extends Component {
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+              contentStyle={{ background: "black", color: "#fff", opacity: "0.8" }}
               contentArrowStyle={{
-                borderRight: "7px solid  rgb(33, 150, 243)"
+                borderRight: "7px solid  black"
               }}
-              iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+              iconStyle={{ background: "black", color: "#fff", opacity: "0.8" }}
               icon={<FaCocktail />}
             >
               <h3 className="vertical-timeline-element-title naslov">
@@ -71,13 +73,14 @@ class Experience extends Component {
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
               contentStyle={{
-                background: "rgb(33, 150, 243)",
-                color: "#fff"
+                background: "black",
+                color: "#fff",
+                opacity: "0.8"
               }}
               contentArrowStyle={{
-                borderRight: "7px solid  rgb(33, 150, 243)"
+                borderRight: "7px solid  black"
               }}
-              iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+              iconStyle={{ background: "black", color: "#fff", opacity: "0.8" }}
               icon={<FaCocktail />}
             >
               <h3 className="vertical-timeline-element-title naslov">
@@ -94,11 +97,11 @@ class Experience extends Component {
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+              contentStyle={{ background: "black", color: "#fff", opacity: "0.8" }}
               contentArrowStyle={{
-                borderRight: "7px solid  rgb(33, 150, 243)"
+                borderRight: "7px solid  black"
               }}
-              iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+              iconStyle={{ background: "black", color: "#fff", opacity: "0.8" }}
               icon={<FaCarAlt />}
             >
               <h3 className="vertical-timeline-element-title naslov">
@@ -116,11 +119,11 @@ class Experience extends Component {
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+              contentStyle={{ background: "black", color: "#fff", opacity: "0.8" }}
               contentArrowStyle={{
-                borderRight: "7px solid  rgb(33, 150, 243)"
+                borderRight: "7px solid  black"
               }}
-              iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+              iconStyle={{ background: "black", color: "#fff", opacity: "0.8" }}
               icon={<IoIosSchool />}
               layout={"1-column"}
             >
