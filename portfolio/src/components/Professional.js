@@ -16,9 +16,9 @@ class Professional extends Component {
     return (
       <div className="proDiv">
           <div className="proBackground"></div>
-          <div className="proDiv">
+          <div className="ProDiv">
             <p className="title2">About me</p>
-            <div>
+            <div className="imgDiv">
               <img className="img1" src={picture} alt={"Stefan image"} />
             </div>
             <div className="iconsDiv">
@@ -69,32 +69,60 @@ class Professional extends Component {
                 Full Stack Web Developer with a passion to make a positive difference in people’s lives through code. With experience In Ruby on Rails, JavaScript, and React Native, I discovered web development through my curiosity to understand how websites work. I arrived in the United States from Serbia without knowing English. However, being a person who learns very quickly, I was speaking the language within a few months and utilizing it fully in my first job. I bring strong skills in problem-solving, creativity, and strategic thinking. 
               </p>
             
-          <div class="centered">
+        
 
-            <section class="cards">
-                
-                <article class="SingleCard">
-                   <p>content for card one</p>
-                </article>
-
- 	<article class="SingleCard">
-                   <p>content for card two</p>
-            </article>
-
-<article class="SingleCard">
-                  <p>content for card three</p>
-            </article>
-
-<article class="SingleCard">
-                   <p>content for card four</p>
-            </article>
-
-	</section>
+          
 </div>
+  <div class="cards">
+                
+                <div class="SingleCard">
+                   <div className="DivImg">
+                      <img src={picture1} class="CardImg" alt="..." />
+                   </div>
+                   <div className="SingleCardSecundPart">
+                      <p className="CardTitleDiv">Ruby</p>
+                      <p className="CardPDiv"> Ruby on the rails<br/>API development with Rails<br/>RSpec</p>
+                   </div>
+                </div>
+
+                <div class="SingleCard">
+                   <div className="DivImg">
+                      <img src={picture3} class="CardImg" alt="..." />
+                   </div>
+                   <div className="SingleCardSecundPart">
+                      <p className="CardTitleDiv">React</p>
+                      <p className="CardPDiv"> React Native<br/>Redux</p>
+                   </div>
+                </div>
+
+                <div class="SingleCard">
+                   <div className="DivImg">
+                      <img src={picture2} class="CardImg" alt="..." />
+                   </div>
+                   <div className="SingleCardSecundPart">
+                      <p className="CardTitleDiv">Java Script</p>
+                      <p className="CardPDiv"> </p>
+                      
+                   </div>
+                </div>
+
+                <div class="SingleCard">
+                   <div className="DivImg">
+                      <img src={picture4} class="CardImg" alt="..." />
+                   </div>
+                   <div className="SingleCardSecundPart">
+                      <p className="CardTitleDiv">Other</p>
+                      <p className="CardPDiv"> SQL (MYSQL, PostgreSQL)<br/>HTML / CSS<br/>Bootstrap</p>
+                   </div>
+                </div>
+
+ 	
+
+	</div>
         
       </div>
       </div>
-          </div>
+         
     );
   }
 }

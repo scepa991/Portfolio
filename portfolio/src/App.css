@@ -24,37 +24,26 @@
 
 .title {
   color: white;
-  position: absolute;
-  top: 15%;
-  left: 60%;
+  
   font-size: 5vw;
   font-family: "Dancing Script";
 }
 
 .title1 {
   color: red;
-  position: absolute;
-  top: 100%;
-  left: 2%;
+  
   font-size: 2vw;
 }
 
 .title2 {
   color: black;
   position: absolute;
-  top: 5%;
-  left: 42%;
+  top: 2%;
+  left: 40%;
   font-size: 5vw;
   font-family: "Arvo";
 }
-.mobileTitle2 {
-  color: white;
-  position: absolute;
-  top: 5%;
-  left: 38%;
-  font-size: 5vw;
-  font-family: "Arvo";
-}
+
 
 /* Position and sizing of burger button */
 .bm-burger-button {
@@ -93,13 +82,17 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .bm-menu-wrap {
   position: fixed;
   height: 100%;
+  
 }
 
 /* General sidebar styles */
 .bm-menu {
   background: #d3d3d3;
   font-family: "Arvo";
-  font-size: 3vw;
+  font-size: 4vw;
+  
+  
+  
 }
 
 /* Morph shape necessary with bubble or elastic */
@@ -111,32 +104,30 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .bm-item-list {
   color: #b8b7ad;
   padding: 18%;
+  
+ 
 }
 
 /* Individual item */
 .bm-item {
   display: inline-block;
+  color: black;
 }
 
 /* Styling of overlay */
 .bm-overlay {
   background: rgba(192, 7, 7, 0.3);
+  
+  
+  
 }
 
 .menu-item {
   font-size: 3vw;
-
   color: black;
+  
 }
 
-.quote {
-  color: white;
-  position: absolute;
-  top: 70%;
-  left: 52%;
-  font-size: 1.5vw;
-  font-family: "Arvo";
-}
 
 .educationDiv {
   height: 100%;
@@ -190,8 +181,12 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .proDiv {
   height: 100%;
   width: 100%;
-  position: absolute;
   
+
+  
+}
+.ProDiv {
+  display: flex
 }
 .contBackground {
   background-image: url(./images/city.jpg);
@@ -281,6 +276,11 @@ Note: Beware of modifying this element as it can break the animations - you shou
   position: absolute;
   top: 18%;
   left: 32%;
+  flex: 1;
+  
+}
+.imgDiv: {
+  flex: 1;
 }
 .MobileAboutMeDiv {
   height: 15%;
@@ -307,7 +307,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   position: absolute;
   top: 20%;
   left: 0%;
-  width: 100%;
+  width: 90%;
 }
 .vertical-timeline-element {
   position: left;
@@ -436,7 +436,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .cardss {
   position: absolute;
   width: 50%;
-  height: 200%;
+  
 }
 .skillTitleRight {
   position: absolute;
@@ -451,34 +451,51 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .projectPage {
   height: 100%;
   width: 100%;
-  align-content: center;
+  background-color: black;
+  display: flex;
+  
+  
+
 }
 .CardDeck {
-  width: 90%;
-  height: 80%;
-  box-sizing: border-box;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
-  
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    right: 15%;
+    justify-content: space-evenly;
+    
+
 }
 
 .card10 {
-  min-width: 230px;
-  position: relative;
-  flex-direction: column;
-  margin: auto;
-  height: 100%;
-  width: 38%;
-  box-shadow: 5px 6px rgba(0, 0, 0, 0.4);
-  justify-content: space-around
+    height: 500px;
+    width: 500px;
+    background: white;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border: solid 4px gray;
+    box-shadow: 5px 6px rgba(0, 0, 0, 0.4);
+    
   
 }
-@media screen and (min-width: 321px) {
-  .card10 {
-  margin-bottom: 40px;
-    
-  }
+@media screen and (max-width: 375px) {
+    .CardDeck {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 10%;
+           
+    }
+    .card10{
+      height: 260px;
+      width:290px;
+      margin-bottom: 15px;
+      
+        
+    }
 }
 
 .card-img-top {
@@ -486,34 +503,42 @@ Note: Beware of modifying this element as it can break the animations - you shou
   width: 100%;
 }
 .card-body {
-  height: 100%;
-  width: 100%;
-  
+  height: 258px;
+  width: 500px;
 }
-.projectTitle {
-  position: relative;
-  text-align: center;
-  padding-top: 15px;
- 
+@media screen and (max-width: 375px) {
+  .card-body {
+    height: 168px;
+    width: 290px;
+  }
 }
+
 .MobileProjectTitle {
   position: absolute;
   top: 10%;
   left: 38%;
 }
 .card-text {
-  font-size: 2vh;
+  font-size: 20px;
+}
+@media screen and (max-width: 375px) {
+  .card-text {
+    font-size: 10px;
+  }
+}
   
  
-}
-.MobileCard-text {
-  font-size: 1vh;
-  
-}
+
 
 .card-title {
-  font-size: 3vh;
+  font-size: 30px;
 }
+@media screen and (max-width: 375px) {
+  .card-title {
+    font-size: 19px;
+  }
+}
+
 .MobileCard-title {
   font-size: 2vh;
   position: absolute;
@@ -521,10 +546,13 @@ Note: Beware of modifying this element as it can break the animations - you shou
   left: 15%;
 }
 .text-muted {
-  font-size: 2vh;
-  position: absolute;
-  top: 92%;
-  left: 5%;
+  font-size: 20px;
+  
+}
+@media screen and (max-width: 375px) {
+  .text-muted{
+    font-size: 10px;
+  }
 }
 .MobileText-muted {
   font-size: 1vh;
@@ -533,20 +561,15 @@ Note: Beware of modifying this element as it can break the animations - you shou
   left: 5%;
 }
 .badge1 {
-  position: absolute;
-  top: 85%;
-  left: 4%;
-}
-.MobileBadge1 {
-  position: absolute;
-  top: 82%;
-  left: 4%;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
 }
 
+
 .size {
-  font-size: 2vh;
-  display: inline-block;
-  padding-right: 0.3vh;
+  font-size: 15px;
+  
 }
 .MobileSize {
   font-size: 1vh;
@@ -573,13 +596,27 @@ Note: Beware of modifying this element as it can break the animations - you shou
 }
 
 .title4 {
-  font-size: 8vh;
+  color: black;
+  position: absolute;
+  top: 2%;
+  left: 40%;
+  font-size: 5vw;
+  font-family: "Arvo";
   
 }
 .imageCard {
   
-  width: 100%;
+  width: 492px;
+  height: 242px;
+  border-bottom: 4px gray solid;
 }
+@media screen and (max-width: 375px) {
+  .imageCard {
+    width: 282px;
+    height: 92px;
+  }
+}
+
 
 .card1 {
   
@@ -595,44 +632,128 @@ Note: Beware of modifying this element as it can break the animations - you shou
   
 }
 
-.CardDeck1 {
-  border: 5px solid blue;
-  position:absolute;
-  top: 50%;
-  left: 5%;
-  display: flex;
-  justify-content: flex-start;
-  height: 300px;
-  
-}
 .cards {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    right: 7%;
+    justify-content: space-evenly;
+    
 }    
 
 .SingleCard {
-    flex: 1 0 500px;
-    box-sizing: border-box;
-    margin: 1rem .25em;
+    height: 250px;
+    width: 250px;
+    background: black;
+    margin-bottom: 15px;
+    box-shadow: 5px 6px rgba(0, 0, 0, 0.4);
     
   
 }
 @media screen and (max-width: 375px) {
     .cards {
         display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
+        flex-direction: column;
+        position: absolute;
+        top: 35%;
+        margin-left: 100px;
+        
     }
 
     .SingleCard {
+      height: 115px;
+      width:150px;
+      margin-bottom: 15px;
+      
         
     }
 }
 
+
 .iconsDiv {
   display: flex;
   flex-direction: column;
-  position:absolute;
+  position:fixed;
   top: 25%;
   left: 90%;
+}
+
+.CardImg {
+  height: 100px;
+  width: 120px;
+  margin: 5px;
+}
+@media screen and (max-width: 375px) {
+  .CardImg {
+    width: 60px;
+    height: 40px;
+    margin: 3px;
+  }
+}
+.DivImg {
+  height: 125px;
+  width: 250px;
+  border: 4px gray solid;
+  text-align: center;
+}
+@media screen and (max-width: 375px) {
+  .DivImg {
+    height: 50px;
+    width: 150px;
+    border: 2px gray solid;
+    text-align: center;
+  }
+}
+.CardTitleDiv {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+}
+@media screen and (max-width: 375px) {
+  .CardTitleDiv {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+  }
+}
+.SingleCardSecundPart {
+  height: 125px;
+  width: 250px;
+  border: 4px gray solid;
+}
+@media screen and (max-width: 375px) {
+  .SingleCardSecundPart {
+    height: 65px;
+    width: 150px;
+  }
+}
+.CardPDiv {
+  color: white;
+  font-size: 15px;
+  text-align: center;
+}
+@media screen and (max-width: 375px) {
+  .CardPDiv {
+    color: white;
+    font-size: 4px;
+    
+  }
+}
+.iconsSmall {
+  color: black;
+  width: 3vw;
+  height: 3vw;
+}
+@media screen and (max-width: 375px) {
+  .iconsSmall {
+    color: black;
+    width: 6vw;
+    height: 6vw;
+  }
+}
+.experiment {
+  display: inline-block;
 }
