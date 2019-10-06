@@ -3,6 +3,7 @@ import "./App.css";
 import { BrowserRouter, Route } from "react-router-dom";
 import { fallDown as Menu } from "react-burger-menu";
 
+
 import Main from "./components/Main";
 import Professional from "./components/Professional";
 import Projects from "./components/Projects";
@@ -15,7 +16,10 @@ class App extends Component {
   render() {
     return (
       <div>
+        
+
         <BrowserRouter>
+       
           <Menu right>
             <a id="home" className="a" href="/">
               Home
@@ -43,3 +47,54 @@ class App extends Component {
 }
 
 export default App;
+
+
+{/* <a href="https://github.com/scepa991" target="_blank">
+            <FaGithub
+              style={{
+                color: "black",
+                width: "5vw",
+                height: "5vw",
+                position: "absolute",
+                top: "1%",
+                left: "44%"
+              }}
+            />
+          </a>
+
+          <a href="https://instagram.com/scepa991/" target="_blank">
+            <FaInstagram
+              style={{
+                color: "#d3d3d3",
+                width: "5vw",
+                height: "5vw",
+                position: "absolute",
+                top: "1%",
+                left: "51%"
+              }}
+            />
+          </a>
+          <a href="https://linkedin.com/in/stefanscepanovic/" target="_blank">
+            <FaLinkedin
+              style={{
+                color: "black",
+                width: "5vw",
+                height: "5vw",
+                position: "absolute",
+                top: "1%",
+                left: "38%"
+              }}
+            />
+          </a>
+          <a href="mailto:scepa91@icloud.com" target="_blank">
+            <IoIosMail
+              style={{
+                color: "d3d3d3",
+                width: "5vw",
+                height: "5vw",
+                position: "absolute",
+                top: "1%",
+                left: "57%"
+              }}
+            />
+          </a> */}

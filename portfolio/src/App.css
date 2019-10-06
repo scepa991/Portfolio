@@ -5,28 +5,28 @@
 .style {
   height: 100%;
   width: 100%;
-  background: linear-gradient(to left, hsl(180, 26%, 4%) 50%, #d3d3d3 50%);
+  background-color: black;
   color: "black";
   position: fixed;
+  
 }
 
 .img {
-  width: 35%;
-  height: 70%;
-  margin-left: 33%;
-  margin-right: 33%;
-  margin-top: 5%;
-  margin-bottom: 25%;
+  position: absolute;
+  top: 14%;
+  left: 25%;
+  width: 55%;
+  height: 85%;
   border-style: solid;
   border-width: 1%;
   border-color: gray;
 }
 
 .title {
-  color: black;
+  color: white;
   position: absolute;
-  top: 5%;
-  left: 5%;
+  top: 15%;
+  left: 60%;
   font-size: 5vw;
   font-family: "Dancing Script";
 }
@@ -47,14 +47,22 @@
   font-size: 5vw;
   font-family: "Arvo";
 }
+.mobileTitle2 {
+  color: white;
+  position: absolute;
+  top: 5%;
+  left: 38%;
+  font-size: 5vw;
+  font-family: "Arvo";
+}
 
 /* Position and sizing of burger button */
 .bm-burger-button {
   position: fixed;
-  width: 4vw;
-  height: 4vw;
+  width: 5vw;
+  height: 5vw;
   left: 90%;
-  top: 5%;
+  top: 6%;
 }
 
 /* Color/shape of burger icon bars */
@@ -124,9 +132,9 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .quote {
   color: white;
   position: absolute;
-  top: 50%;
-  left: 70%;
-  font-size: 1vw;
+  top: 70%;
+  left: 52%;
+  font-size: 1.5vw;
   font-family: "Arvo";
 }
 
@@ -183,6 +191,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   height: 100%;
   width: 100%;
   position: absolute;
+  
 }
 .contBackground {
   background-image: url(./images/city.jpg);
@@ -259,6 +268,13 @@ Note: Beware of modifying this element as it can break the animations - you shou
   top: 17%;
   left: 10%;
 }
+.mobileImg1 {
+  border-radius: 50%;
+  width: 25%;
+  position: absolute;
+  top: 17%;
+  left: 10%;
+}
 .aboutMeDiv {
   height: 15%;
   width: 50%;
@@ -266,8 +282,19 @@ Note: Beware of modifying this element as it can break the animations - you shou
   top: 18%;
   left: 32%;
 }
+.MobileAboutMeDiv {
+  height: 15%;
+  width: 50%;
+  position: absolute;
+  top: 19%;
+  left: 37%;
+}
 .AboutMeText {
-  font-size: 1.4vw;
+  font-size: 1.6vw;
+  color: #d3d3d3;
+}
+.MobileAboutMeText {
+  font-size: 1.6vw;
   color: #d3d3d3;
 }
 
@@ -285,6 +312,16 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .vertical-timeline-element {
   position: left;
 }
+.MobileCard0 {
+  width: 17%;
+  height: 20%;
+  position: absolute;
+  left: 9%;
+  top: 45%;
+  background-color: #cfd786;
+  box-shadow: 5px 6px rgba(0, 0, 0, 0.4);
+  border: 3px solid #6f6f0b;
+}
 .card0 {
   width: 17%;
   height: 32%;
@@ -295,22 +332,23 @@ Note: Beware of modifying this element as it can break the animations - you shou
   box-shadow: 5px 6px rgba(0, 0, 0, 0.4);
   border: 3px solid #6f6f0b;
 }
-.card1 {
-  width: 17%;
-  height: 32%;
-  position: absolute;
-  left: 30%;
-  top: 60%;
-  background-color: #cfd786;
-  box-shadow: 5px 6px rgba(0, 0, 0, 0.4);
-  border: 3px solid #6f6f0b;
-}
+
 .card2 {
   width: 17%;
   height: 32%;
   position: absolute;
   left: 52%;
   top: 60%;
+  background-color: #cfd786;
+  box-shadow: 5px 6px rgba(0, 0, 0, 0.4);
+  border: 3px solid #6f6f0b;
+}
+.MobileCard2 {
+  width: 17%;
+  height: 20%;
+  position: absolute;
+  left: 52%;
+  top: 45%;
   background-color: #cfd786;
   box-shadow: 5px 6px rgba(0, 0, 0, 0.4);
   border: 3px solid #6f6f0b;
@@ -325,7 +363,17 @@ Note: Beware of modifying this element as it can break the animations - you shou
   box-shadow: 5px 6px rgba(0, 0, 0, 0.4);
   border: 3px solid #6f6f0b;
 }
-.logo {
+.MobileCard3 {
+  width: 17%;
+  height: 20%;
+  position: absolute;
+  left: 74%;
+  top: 45%;
+  background-color: #cfd786;
+  box-shadow: 5px 6px rgba(0, 0, 0, 0.4);
+  border: 3px solid #6f6f0b;
+}
+.logo1 {
   width: 50%;
   height: 50%;
   margin-left: 25%;
@@ -401,24 +449,36 @@ Note: Beware of modifying this element as it can break the animations - you shou
   font-family: "Arvo";
 }
 .projectPage {
-  align-items: center;
-  justify-content: center;
-  box-sizing: border-box;
-  background-color: aquamarine;
-  flex-basis: auto;
+  height: 100%;
+  width: 100%;
+  align-content: center;
 }
-.card-deck {
-  position: absolute;
-  top: 12%;
-  left: 5%;
-  width: 94%;
-  height: 95%;
-  padding-top: 8vh;
-}
-.card {
+.CardDeck {
+  width: 90%;
   height: 80%;
-  width: 30%;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  
+}
+
+.card10 {
+  min-width: 230px;
+  position: relative;
+  flex-direction: column;
+  margin: auto;
+  height: 100%;
+  width: 38%;
   box-shadow: 5px 6px rgba(0, 0, 0, 0.4);
+  justify-content: space-around
+  
+}
+@media screen and (min-width: 321px) {
+  .card10 {
+  margin-bottom: 40px;
+    
+  }
 }
 
 .card-img-top {
@@ -428,20 +488,37 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .card-body {
   height: 100%;
   width: 100%;
+  
 }
 .projectTitle {
+  position: relative;
+  text-align: center;
+  padding-top: 15px;
+ 
+}
+.MobileProjectTitle {
   position: absolute;
   top: 10%;
-  left: 45%;
+  left: 38%;
 }
 .card-text {
   font-size: 2vh;
-  position: absolute;
-  top: 70%;
+  
+ 
+}
+.MobileCard-text {
+  font-size: 1vh;
+  
 }
 
 .card-title {
   font-size: 3vh;
+}
+.MobileCard-title {
+  font-size: 2vh;
+  position: absolute;
+  top: 65%;
+  left: 15%;
 }
 .text-muted {
   font-size: 2vh;
@@ -449,9 +526,20 @@ Note: Beware of modifying this element as it can break the animations - you shou
   top: 92%;
   left: 5%;
 }
+.MobileText-muted {
+  font-size: 1vh;
+  position: absolute;
+  top: 97%;
+  left: 5%;
+}
 .badge1 {
   position: absolute;
   top: 85%;
+  left: 4%;
+}
+.MobileBadge1 {
+  position: absolute;
+  top: 82%;
   left: 4%;
 }
 
@@ -459,4 +547,92 @@ Note: Beware of modifying this element as it can break the animations - you shou
   font-size: 2vh;
   display: inline-block;
   padding-right: 0.3vh;
+}
+.MobileSize {
+  font-size: 1vh;
+  display: inline;
+  padding: 0.1vh 0;
+}
+.logo {
+  position: absolute;
+  top: 15%;
+  left: 30%;
+  height: 75%;
+  width: 40%;
+  
+}
+@media only screen and (max-width: 375px) {
+  .logo {
+    max-width: 375px;
+    height:35%;
+    width:45%;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+  }
+}
+
+.title4 {
+  font-size: 8vh;
+  
+}
+.imageCard {
+  
+  width: 100%;
+}
+
+.card1 {
+  
+  position: relative;
+  flex-direction: row;
+  margin: auto;
+  width: 23%;
+  height: 55%;
+  box-shadow: 5px 6px rgba(0, 0, 0, 0.4);
+  justify-content: space-around;
+  border: black 1px;
+  background: red;
+  
+}
+
+.CardDeck1 {
+  border: 5px solid blue;
+  position:absolute;
+  top: 50%;
+  left: 5%;
+  display: flex;
+  justify-content: flex-start;
+  height: 300px;
+  
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}    
+
+.SingleCard {
+    flex: 1 0 500px;
+    box-sizing: border-box;
+    margin: 1rem .25em;
+    
+  
+}
+@media screen and (max-width: 375px) {
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .SingleCard {
+        
+    }
+}
+
+.iconsDiv {
+  display: flex;
+  flex-direction: column;
+  position:absolute;
+  top: 25%;
+  left: 90%;
 }
