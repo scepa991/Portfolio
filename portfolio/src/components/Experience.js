@@ -17,7 +17,49 @@ class Experience extends Component {
         <div>
           <p className="expTitle">Experience & Education</p>
         </div>
-        
+        <div className="iconsDiv">
+           <a href="https://github.com/scepa991" target="_blank">
+            <FaGithub
+              style={{
+                color: "black",
+                width: "5vw",
+                height: "5vw",
+                
+              }}
+            />
+          </a>
+
+          <a href="https://instagram.com/scepa991/" target="_blank">
+            <FaInstagram
+              style={{
+                color: "black",
+                width: "5vw",
+                height: "5vw",
+                
+              }}
+            />
+          </a>
+          <a href="https://linkedin.com/in/stefanscepanovic/" target="_blank">
+            <FaLinkedin
+              style={{
+                color: "black",
+                width: "5vw",
+                height: "5vw",
+                
+              }}
+            />
+          </a>
+          <a href="mailto:scepa91@icloud.com" target="_blank">
+            <IoIosMail
+              style={{
+                color: "black",
+                width: "5vw",
+                height: "5vw",
+                
+              }}
+            />
+          </a>
+          </div>
         <div className="line">
           <VerticalTimeline>
             <VerticalTimelineElement
