@@ -18,7 +18,7 @@
     "react-motion-menu": "^0.4.4",
     "react-router": "^5.0.1",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.1.1",
+    "react-scripts": "5.0.1",
     "react-sweet-progress": "^1.1.2",
     "react-swipeable-cards": "^1.0.6",
     "react-vertical-timeline-component": "^2.5.0"
